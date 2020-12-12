@@ -1,5 +1,6 @@
 <h3 style="text-align:center;font-size:200%;" >让机器也学会夸夸</h3>
 <p style="text-align:center;font-size:100%;" >16307110216 何瑞安</p>
+
 ### 一、选题动机
 
 2019年3月，各类夸夸群在网络上流行起来，在夸夸群内，被人夸奖是家常便饭，有电商平台商家还推出了“夸人服务”，你只需要把人拉进群，便会开启一轮长达数分钟的吹捧，各种溢美之词都会源源不断的向你袭来。就算你只发送了一个标点符号，他们都能夸出花来。[1]
@@ -42,7 +43,7 @@
 
 其中Encoder和Docoder，这里使用了GRU模块，循环神经网络（Recurrent Neural Network, RNN）的一种，每个时间步的隐藏状态只取决于该时间步及之前的输入子序列。和LSTM（Long-Short Term Memory）一样，也是为了解决长期记忆和反向传播中的梯度等问题而提出来的。相比LSTM，使用GRU能够达到相当的效果，并且相比之下更容易进行训练，能够很大程度上提高训练效率。
 
-![seq2seq](/Users/ryan/Documents/seq2seq/report/img/seq2seq.png)
+![seq2seq](./img/seq2seq.png)
 
 > 图片来源：Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. 2014.Sequence to sequence learning with neural networks. NIPS.
 
